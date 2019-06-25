@@ -1,4 +1,4 @@
-name: example-environment
+name: ocean-env
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,8 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - matplotlib
+  - cartopy
+  - xarray
+  - netCDF4
+  - jupyter
